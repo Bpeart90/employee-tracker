@@ -1,0 +1,22 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Create a company's employee database using node, inquirer and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bpeart90/employee-tracker.git"
+  },
+  "author": "Brandon Peart",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "7.1.0",
+    "my-sql": "1.2.15",
+    "mysql": "^2.18.1"
+  }
+}
